@@ -9,8 +9,9 @@ end
 
 def count_empty_strings(array)
   counter = 0
-  array.count do |num|
-    num = empty.String
+  array.count.times do |i|
+    if array[1] = ""
   end 
+end
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 end
